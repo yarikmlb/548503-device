@@ -200,6 +200,7 @@ input[type="radio"].visually-hidden {
   color: #000;
   background-color: transparent;
   border: 2px solid #000;
+  border-radius: 0;
   cursor: pointer;
   visibility: hidden;
 }
@@ -518,7 +519,7 @@ input[type="radio"].visually-hidden {
 
 .slider-controls {
   position: absolute;
-  top: 325px;
+  bottom: 140px;
   right: 72px;
   z-index: 1;
 }
@@ -583,7 +584,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 560px;
-  height: 500px;
+  min-height: 500px;
 }
 
 .slider-item p {
@@ -813,10 +814,10 @@ input[type="radio"].visually-hidden {
   padding: 55px 0 70px 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #fff), color-stop(35%, #e5e5e5), color-stop(65%, #e5e5e5));
-  background-image: -webkit-linear-gradient(top, #fff 35%, #e5e5e5 35%, #e5e5e5 65%);
-  background-image: -o-linear-gradient(top, #fff 35%, #e5e5e5 35%, #e5e5e5 65%);
-  background-image: linear-gradient(to bottom, #fff 35%, #e5e5e5 35%, #e5e5e5 65%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(155, #fff), color-stop(155, #e5e5e5), color-stop(65%, #e5e5e5));
+  background-image: -webkit-linear-gradient(top, #fff 155px, #e5e5e5 155px, #e5e5e5 65%);
+  background-image: -o-linear-gradient(top, #fff 155px, #e5e5e5 155px, #e5e5e5 65%);
+  background-image: linear-gradient(to bottom, #fff 155px, #e5e5e5 155px, #e5e5e5 65%);
 }
 
 .service-columns {
@@ -1749,6 +1750,7 @@ input[type="radio"].visually-hidden {
 .phone {
   line-height: 30px;
   color: #fff;
+  margin: 15px 0;
 }
 
 .main-footer .logout {
