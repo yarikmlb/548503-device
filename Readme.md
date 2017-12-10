@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Yaro](https://up.htmlacademy.ru/htmlcss/19/user/548503).
-* Наставник: `Неизвестно`.
+* Наставник: [Magomed Kandaev](https://up.htmlacademy.ru/htmlcss/19/tutors).
 
 ---
 
